@@ -5,3 +5,6 @@
 The project involves data ingestion from the NBA API using the 'requests' and 'pandas' libraries to retrieve information about NBA players and teams. Additionally, data is scraped from Wikipedia using 'BeautifulSoup' to gather details on the last 10 NBA champions.
 
 Link: [NBA API Data Import](https://github.com/josephawonusi/Data-Analyst-Projects/tree/main/nba_project)
+
+## Project 2: Linchess Exploratory Data Analysis with SQL (SSMS) _Ongoing_
+This project involves the exploratory data analysis of Linchess data using SQL. The project will investigate the data and generate SQL queries to describe the trends within the data.
