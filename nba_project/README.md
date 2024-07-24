@@ -22,6 +22,79 @@ This project involves the extraction of NBA data using the NBA API (https://rapi
     - Processes the DataFrame for the last 10 NBA champions.
     - Determines the winner of each series and creates a 'NBA Champion' column.
     - Drops irrelevant columns and exports the cleaned data.
+## File Descriptions
+
+- `NBA_API_Data_Ingestion.ipynb`: Jupyter Notebook containing the project code.
+- `nba_teams.csv`: CSV file containing NBA team data.
+- `last_ten_champs.csv`: CSV file with cleaned data on the last 10 NBA champions.
+
+## Acknowledgments
+
+- NBA API: [API Sports](https://rapidapi.com/api-sports/api/api-nba)
+- Wikipedia: [List of NBA champions](https://en.wikipedia.org/wiki/List_of_NBA_champions)
+  
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Environment
+Python 3.10 or above
+
+## Getting Started
+
+1. Install the required libraries:
+
+   ```bash
+   pip install requests pandas beautifulsoup4 html5lib
+   ```
+
+2. Set up the necessary API_KEY and API_HOST for NBA API access.
+
+3. Run the Jupyter Notebook: `NBA_API_Data_Ingestion.ipynb`.
+
+   
+# NBA Playoff Prediction
+
+This project aims to predict NBA playoff appearances based on historical team statistics. By leveraging the `nba_api`, we collect and process data to build a predictive model.
+
+## Overview
+
+The project involves several key steps:
+1. Collecting team statistics for multiple NBA seasons.
+2. Retrieving playoff standings data.
+3. Merging team statistics with playoff data.
+4. Preprocessing the data for predictive modelling.
+
+## Data Collection
+
+I use the `nba_api` to gather data on team performance and playoff standings:
+
+- **Team Statistics**: For each season, we collect a variety of performance metrics.
+- **Playoff Picture**: We retrieve the playoff standings for each season.
+
+## Data Processing
+
+The collected data undergoes several preprocessing steps:
+- Merging team statistics with playoff data.
+- Handling missing values.
+- Encoding categorical variables.
+
+## Usage
+
+### Requirements
+
+- Python 3.x
+- pandas
+- nba_api
+
+### Installation
+
+To get started, clone this repository and install the required packages:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
 
 ## Environment
 Python 3.10 or above
@@ -38,20 +111,6 @@ Python 3.10 or above
 
 3. Run the Jupyter Notebook: `NBA_API_Data_Ingestion.ipynb`.
 
-## File Descriptions
-
-- `NBA_API_Data_Ingestion.ipynb`: Jupyter Notebook containing the project code.
-- `nba_teams.csv`: CSV file containing NBA team data.
-- `last_ten_champs.csv`: CSV file with cleaned data on the last 10 NBA champions.
-
-## Acknowledgments
-
-- NBA API: [API Sports](https://rapidapi.com/api-sports/api/api-nba)
-- Wikipedia: [List of NBA champions](https://en.wikipedia.org/wiki/List_of_NBA_champions)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
