@@ -14,3 +14,6 @@ This project involves a Power BI dashboard that compares the careers of LeBron J
 
 ## Project 4: NBA Playoff Prediction
 This project aims to predict NBA playoff appearances based on historical team statistics. By leveraging the nba_api, we collect and process data to build a predictive model.
+
+## Project 5: # Financial Data Analysis - Corridor Concept
+This project involves an in-depth analysis of financial data using the Corridor Concept. The analysis aims to provide insights into market trends and help make informed financial decisions by leveraging Python, including libraries like pandas and matplotlib for data manipulation and visualization.
