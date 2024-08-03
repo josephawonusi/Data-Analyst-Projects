@@ -11,3 +11,6 @@ This project involves the exploratory data analysis of Linchess data using SQL. 
 
 ## Project 3: LeBron James vs. Michael Jordan Dashboard
 This project involves a Power BI dashboard that compares the careers of LeBron James and Michael Jordan, highlighting their achievements, statistics, and overall impact on the game.
+
+## Project 4: NBA Playoff Prediction
+This project aims to predict NBA playoff appearances based on historical team statistics. By leveraging the nba_api, we collect and process data to build a predictive model.
