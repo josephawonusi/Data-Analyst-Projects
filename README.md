@@ -6,7 +6,7 @@ The project involves data ingestion from the NBA API using the 'requests' and 'p
 
 Link: [NBA API Data Import](https://github.com/josephawonusi/Data-Analyst-Projects/tree/main/nba_project)
 
-## Project 2: Linchess Exploratory Data Analysis with SQL (SSMS) _Ongoing_
+## Project 2: Linchess Exploratory Data Analysis with SQL (SSMS) & Power BI
 This project involves the exploratory data analysis of Linchess data using SQL. The project will investigate the data and generate SQL queries to describe the trends within the data. Power BI is used to visulise insights and create new measures to futher support analysis.
 
 ## Project 3: LeBron James vs. Michael Jordan Dashboard
