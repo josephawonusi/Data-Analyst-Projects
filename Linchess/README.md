@@ -9,9 +9,16 @@ This project contains SQL scripts and stored procedures to analyze and report pl
 ## Table of Contents
 
 - [Setup](#setup)
+- [Power Bi Dasheboard](#dashboard#)
 - [Tables](#tables)
 - [Stored Procedures](#stored-procedures)
 - [Usage](#usage)
+
+## Power BI Dashboard
+### Rating Difference
+![image](https://github.com/user-attachments/assets/2f9dcf47-3103-4242-bb64-d03f36d17f18)
+### Player Rating
+![image](https://github.com/user-attachments/assets/2f350152-06e2-4103-8853-8918f13b9089)
 
 ## Setup
 
